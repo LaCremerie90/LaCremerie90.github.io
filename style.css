@@ -1,3 +1,11 @@
+/*
+du plus clai au plus foncer :
+    #F8F9FA, rgb(248 249 250)
+    #E9ECEF, rgb(233 236 239)
+    #DEE2E6, rgb(222 226 230)
+    #ADB5BD, rgb(173 181 189)
+    #495057, rgb(73 80 87)
+*/
 
 
 * {
@@ -22,7 +30,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;  
-    background-color: #495057; 
+    background-color: rgb(173 181 189); 
     color: white;
     padding: 10px ;    
 }
@@ -39,13 +47,13 @@ nav ul {
     width: 100%;
 }
 nav img{
-    height: 25.6px;
+    height: 30px;
     width: auto;
     float: left;
 
 }
 
-nav ul li a {
+.navLink{
     color: #ffffff;
     text-decoration: none;
     padding: 8px 12px;
@@ -54,28 +62,14 @@ nav ul li a {
 }
 
 .accueil{
-    color: rgb(0, 0, 0);
+    color: rgb(73 80 87);
+    text-decoration: underline;
 
 }
-
-.economie{
-    color: rgb(0, 0, 0);
-
-}
-
-.ecologie{
-    color: rgb(0, 0, 0);
-
-}
-
-.presentation   {
-    color: rgb(0, 0, 0);
-}
-
 
 
 nav ul li a:hover {
-    color: #000000;
+    color: #ff7575;
 }
 
 
