@@ -1,5 +1,4 @@
 # presentation du projet SAE-n-1-cremedelacreme
-(expliquer le but du site et du projet)
 notre projet a pour but de crée le site internet de présentation de l'entreprise creme de la creme 
 en respectant les demande d'un client et les information de la société notamment leur zone d'activitée 
 nombre d'employé leur histoire leur programe écologique.
