@@ -61,7 +61,7 @@ nav img{
     transition: color 0.5s;
 }
 
-.accueil{
+.currentOn{
     color: rgb(73 80 87);
     text-decoration: underline;
 
