@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; 
+    color: #000000; 
+    line-height: 1.6;
+    padding: 20px;
+    padding-top: 70px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    background-color: #495057; 
+    color: white;
+    padding: 10px ;    
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+nav img{
+    height: 25.6px;
+    width: auto;
+    float: left;
+
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 100px;
+    transition: color 0.5s;
+}
+
+.accueil{
+    color: rgb(0, 0, 0);
+
+}
+
+.economie{
+    color: rgb(0, 0, 0);
+
+}
+
+.ecologie{
+    color: rgb(0, 0, 0);
+
+}
+
+.presentation   {
+    color: rgb(0, 0, 0);
+}
+
+
+
+nav ul li a:hover {
+    color: #000000;
+}
+
