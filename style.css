@@ -65,13 +65,11 @@ nav img{
 
 .currentOn{
     color: rgb(73 80 87);
-    text-decoration: underline;
-
+    text-decoration: navLink;
 }
 
 
 nav ul li a:hover {
     color: #ff7575;
 }
-
 
