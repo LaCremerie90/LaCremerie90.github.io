@@ -1,1 +1,10 @@
 @import url("../GeneralStyles/header.css");
+
+footer{
+    background-color: rgb(173 181 189);
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
