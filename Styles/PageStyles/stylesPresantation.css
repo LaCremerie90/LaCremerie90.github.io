@@ -1,1 +1,4 @@
 @import url("../GeneralStyles/header.css");
+footer{
+    display: flex;
+}
