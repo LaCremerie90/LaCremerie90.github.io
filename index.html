@@ -2,39 +2,85 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Accueil</title>
+    <title>Crème de la Crème - Accueil</title>
     <link rel="stylesheet" href="Styles/PageStyles/stylesIndex.css">
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
   </head>
 
-  <header>
-    <div id="conteneur">
-
+  <body>
+    <header>
       <nav>
-        <img src="image/logo.png" alt="logo">
-        <ul id="menu">
+        <div class="nav-left">
+          <img src="image/logo.png" alt="logo" class="logo">
+        </div>
 
-          <li><a class="currentOn" class="navLink" href="index.html">Accueil</a></li>
-          <li><a class="navLink" href="Pages/Economie.html">Economie</a></li>
-          <li><a class="navLink" href="Pages/Ecologie.html">Ecologie</a></li>
-          <li><a class="navLink" href="Pages/Presentation.html">Presentation</a></li>
-        </ul>
+        <div class="nav-right">
+          <ul class="menu">
+            <li class="dropdown">
+              <a class="navLink" href="#"> 
+                <img src="image/menu.jpg" alt="▼" class="dropdown-icon">
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Pages/Economie.html">Economie</a></li>
+                <li><a href="Pages/Ecologie.html">Ecologie</a></li>
+                <li><a href="Pages/Presentation.html">Présentation</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </nav>
+    </header>
 
+    <main>
 
-    </div>
-  </header>
+      <section class="hero">
+        <h1>Crème de la Crème</h1>
+        <h2>ou la freelance a la française</h2>
+      </section>
 
- <body>
-    <section class="firstSection">
-      <div class="text">
-        <h1>Acceuil</h1>
-        <p>C'est ici qu'on accueillera les visiteurs du site. Cette page expliquera ce que nous ferons sur le site et donnera accès à toutes les autres pages</p>
-      </div>
-    </section>
+      <section class="bloc bloc1">
+        <div class="bloc-text">
+          <p>
+            Accidant in paterfamilias vatibus vitae siquid Marcio in parietes velut arcanorum vitae aurem penetralii squidi sol inclitis suumarsuet sol alt in tibiamatur postiriste sectore paterfamilias Amphiararo accidantar etiamantur vatibus in velit ideoque interdum accidaret secreto arcanorum secreto imperator criterioris coniseti penetralii.
+          </p>
+        </div>
+        <div class="bloc-image">
+          <img src="image/image-economie.jpeg" alt="illustration">
+        </div>
+      </section>
+
+      <section class="bloc bloc2">
+        <div class="bloc-image">
+          <img src="image/ilustration-ecologie.avif" alt="illustration economie">
+        </div>
+        <div class="bloc-text">
+          <p>
+            Accidant in paterfamilias vatibus vitae siquid Marcio in parietes velut arcanorum vitae aurem penetralii squidi sol inclitis suumarsuet sol alt in tibiamatur postiriste sectore paterfamilias Amphiararo accidantar etiamantur vatibus in velit ideoque interdum accidaret secreto arcanorum secreto imperator criterioris coniseti penetralii.
+          </p>
+        </div>
+      </section>
+
+      <section class="bloc bloc2">
+        <div class="bloc-text">
+          <p>
+            Accidant in paterfamilias vatibus vitae siquid Marcio in parietes velut arcanorum vitae aurem penetralii squidi sol inclitis suumarsuet sol alt in tibiamatur postiriste sectore paterfamilias Amphiararo accidantar etiamantur vatibus in velit ideoque interdum accidaret secreto arcanorum secreto imperator criterioris coniseti penetralii.
+          </p>
+        </div>
+        <div class="bloc-image">
+          <img src="image/presentation.jpg" alt="illustration">
+        </div>
+      </section>
+
+      <section class="bloc bloc3">
+        <p>
+          Accidant in paterfamilias vatibus vitae siquid Marcio in parietes velut arcanorum vitae aurem penetralii squidi sol inclitis suumarsuet sol alt in tibiamatur postiriste sectore paterfamilias Amphiararo accidantar etiamantur vatibus in velit ideoque interdum accidaret secreto arcanorum secreto imperator criterioris coniseti penetralii.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>AUTEUR — Léo Bouchard</span>
+    </footer>
   </body>
-  <footer>
-    <span>par Léo Bouchard</span>
-  </footer>
-
 </html>
