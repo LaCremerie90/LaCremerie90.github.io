@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Economie</title>
-    <link rel="stylesheet" href="../Styles/PageStyles/stylesEconomie.css">
-    <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
-
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Economie</title>
+  <link rel="stylesheet" href="stylesEcologie.css">
+  <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
+</head>
 
 <header>
-      <nav>
-        <div class="nav-left">
-          <img src="../image/logo.png" alt="logo" class="logo">
-        </div>
+  <div id="conteneur">
+    <nav>
+      <img src="../image/logo.png" alt="logo">
+      <ul id="menu">
+        <li><a class="navLink" href="../index.html">Accueil</a></li>
+        <li><a class="currentOn navLink" href="Economie.html">Économie</a></li>
+        <li><a class="navLink" href="Ecologie.html">Écologie</a></li>
+        <li><a class="navLink" href="Presentation.html">Presentation</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-        <div class="nav-right">
-          <ul class="menu">
-            <li class="dropdown">
-              <a class="navLink" href="#"> 
-                <img src="../image/menu.jpg" alt="▼" class="dropdown-icon">
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="Economie.html">Economie</a></li>
-                <li><a href="Ecologie.html">Ecologie</a></li>
-                <li><a href="Presentation.html">Présentation</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-  <body>
-    <section class="firstSection">
-      <div class="text">
-        <h1>Économie</h1>
-        <p>C'est dans cette page que nous parlerons de l'économie et de comment une société basée sur le free-lance fonctionne.</p>
+<body>
+  <section class="firstSection" class="part">
+    <div id="Title">
+      <h1>Économie</h1>
+    </div>
+
+    <div id="stPart" class="part">
+      <p>
+        <b>Date de création :</b> 2015. <b>Siège social :</b> Paris (depuis le 19/06/2018).<br>
+        <b>Capital social :</b> 11 455,82 €.<br>
+        <b>Modèle :</b> plateforme sélective (≈ <b>10&nbsp;%</b> de freelances acceptés), missions longues (~6&nbsp;mois), sans intermédiaires (ni ESN, ni agences).<br>
+        <b>Base talents :</b> ~<b>40 000 freelances</b> inscrits ; <b>150&nbsp;M€</b> de volume cumulé de missions (ordre de grandeur).<br>
+        <b>Monétisation :</b> commission de <b>15&nbsp;%</b> sur chaque devis.
+      </p>
+    </div>
+
+    <div id="ndPart" class="part">
+      <div class="image">
+        <img src="creme_funding_rounds_2016_2018.png" alt="Levées de fonds de La Crème de la Crème (2016–2018)">
       </div>
-    </section>
-  </body>
-  <footer>
-    <span>by Gabriel Chevreau</span>
-  </footer>
+    </div>
+
+    <div id="rdPart" class="part">
+      <p>
+        <b>Clients & traction :</b> fin 2018 : ~<b>5 000 entreprises</b> (dont ~<b>80&nbsp;%</b> du CAC&nbsp;40).<br>
+        <b>Effectifs :</b> ~<b>20</b> salariés (2020) → ~<b>40</b> salariés (2023–2025).<br>
+        <b>Concurrence FR :</b> Malt (généraliste), LeHibou (IT/consultants), Comet (sélectif tech/data), Freelance.com (leader &gt;1&nbsp;Md€).
+      </p>
+    </div>
+
+    <div id="fourthPart">
+      <div class="image">
+        <img src="concurrence_francaise_avec_creme.png" alt="Comparatif CA 2024 — plateformes françaises">
+      </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <span>Made by Gabriel CHEVREAU</span>
+</footer>
 </html>

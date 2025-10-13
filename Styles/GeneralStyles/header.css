@@ -41,8 +41,38 @@ nav {
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 .menu {
   list-style: none;
+=======
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+nav img{
+    height: 35px;
+    width: auto;
+    float: left;
+    border-radius: 10%;
+
+}
+
+
+.navLink{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 100px;
+    transition: color 0.5s;
+}
+
+.currentOn{
+    color: rgb(73 80 87);
+    text-decoration: navLink;
+>>>>>>> Stashed changes
 }
 
 
