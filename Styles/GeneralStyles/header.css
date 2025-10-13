@@ -99,3 +99,7 @@ nav {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+
+#menu a:hover { background: rgba(255,255,255,.15); }
+#menu a.currentOn, #menu a[aria-current="page"] { background: rgba(240, 20, 20, 0.25); }

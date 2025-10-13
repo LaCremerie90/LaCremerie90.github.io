@@ -3,60 +3,135 @@
 <head>
   <meta charset="utf-8" />
   <title>Economie</title>
-  <link rel="stylesheet" href="stylesEcologie.css">
+  <link rel="stylesheet" href="../Styles/PageStyles/stylesEcologie.css">
   <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
 
 <header>
-  <div id="conteneur">
-    <nav>
-      <img src="../image/logo.png" alt="logo">
-      <ul id="menu">
-        <li><a class="navLink" href="../index.html">Accueil</a></li>
-        <li><a class="currentOn navLink" href="Economie.html">Économie</a></li>
-        <li><a class="navLink" href="Ecologie.html">Écologie</a></li>
-        <li><a class="navLink" href="Presentation.html">Presentation</a></li>
+  <nav>
+    <div class="nav-left">
+      <img src="../image/logo.png" alt="logo" class="logo">
+    </div>
+
+    <div class="nav-right">
+      <ul class="menu">
+        <li class="dropdown">
+          <a class="navLink" href="#">
+            <img src="../image/menu.jpg" alt="▼" class="dropdown-icon">
+          </a>
+          <ul class="dropdown-menu" id="menu">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="Economie.html">Economie</a></li>
+            <li><a href="Ecologie.html">Ecologie</a></li>
+            <li><a href="Presentation.html">Présentation</a></li>
+          </ul>
+        </li>
       </ul>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </header>
 
 <body>
-  <section class="firstSection" class="part">
-    <div id="Title">
-      <h1>Économie</h1>
+
+    <div id="Title" class="hero">
+    <h1>Crème de la crème et son Economie</h1>
     </div>
 
-    <div id="stPart" class="part">
+    <section class="bloc bloc0">
+    <div class="bloc-text">
       <p>
-        <b>Date de création :</b> 2015. <b>Siège social :</b> Paris (depuis le 19/06/2018).<br>
-        <b>Capital social :</b> 11 455,82 €.<br>
-        <b>Modèle :</b> plateforme sélective (≈ <b>10&nbsp;%</b> de freelances acceptés), missions longues (~6&nbsp;mois), sans intermédiaires (ni ESN, ni agences).<br>
-        <b>Base talents :</b> ~<b>40 000 freelances</b> inscrits ; <b>150&nbsp;M€</b> de volume cumulé de missions (ordre de grandeur).<br>
-        <b>Monétisation :</b> commission de <b>15&nbsp;%</b> sur chaque devis.
+        Fondée en <b>2015</b>, La Crème de la Crème est une plateforme de mise en relation entre entreprises et
+        freelances à haut niveau d’expertise. La société, dont le <b>siège</b> et l’établissement principal sont
+        situés à <b>Paris</b> depuis le 19&nbsp;juin&nbsp;2018, dispose d’un <b>capital social de 11&nbsp;455,82&nbsp;€</b>.
+        Son positionnement repose sur la qualité et la fiabilité&nbsp;: la plateforme affirme n’accepter qu’environ
+        <b>10&nbsp;%</b> des candidatures de freelances, afin de garantir un vivier resserré et qualifié.
       </p>
-    </div>
-
-    <div id="ndPart" class="part">
-      <div class="image">
-        <img src="creme_funding_rounds_2016_2018.png" alt="Levées de fonds de La Crème de la Crème (2016–2018)">
-      </div>
-    </div>
-
-    <div id="rdPart" class="part">
       <p>
-        <b>Clients & traction :</b> fin 2018 : ~<b>5 000 entreprises</b> (dont ~<b>80&nbsp;%</b> du CAC&nbsp;40).<br>
-        <b>Effectifs :</b> ~<b>20</b> salariés (2020) → ~<b>40</b> salariés (2023–2025).<br>
-        <b>Concurrence FR :</b> Malt (généraliste), LeHibou (IT/consultants), Comet (sélectif tech/data), Freelance.com (leader &gt;1&nbsp;Md€).
+        Le modèle de mission privilégie les <b>collaborations de moyenne à longue durée</b> (souvent autour de six mois),
+        en direct entre l’entreprise et l’indépendant. La Crème de la Crème ne travaille pas avec des intermédiaires
+        (agences, ESN, cabinets de chasse), ce qui clarifie la relation contractuelle et la répartition de la valeur.
+        La plateforme revendique à ce jour un volume cumulé d’environ <b>150&nbsp;M€</b> de missions réalisées et une
+        communauté portée désormais à environ <b>40&nbsp;000 freelances</b> inscrits.
       </p>
-    </div>
 
-    <div id="fourthPart">
-      <div class="image">
-        <img src="concurrence_francaise_avec_creme.png" alt="Comparatif CA 2024 — plateformes françaises">
-      </div>
+  </section>
+
+      <section class="bloc bloc1">
+    <div class="bloc-text">
+      <p>
+       La Crème de la Crème a réalisé trois levées de fonds :
+      <br>
+    • 2016 : 350 000 €
+    <br>
+    • 2017 : 600 000 €
+    <br>
+    • 2018 : 3 M€
+    <br>
+Ces financements successifs ont permis de renforcer son produit, sa communauté de freelances et son réseau d’entreprises clientes.
+
+
+
+    </div>
+    <div class="bloc-image"><img src="levee_de_fond_lacreme.png" height="200" width="200" alt="Levées de fonds de La Crème de la Crème (2016–2018)">
     </div>
   </section>
+
+  <section class="bloc bloc2">
+    <div class="bloc-text">
+      <p>
+        Le <b>modèle économique</b> s’appuie sur une <b>commission de 15&nbsp;%</b> appliquée sur chaque devis validé.
+        Cette tarification rémunère la sélection des profils, la mise en relation, les outils de suivi de mission et la
+        gestion administrative. La clientèle est majoritairement composée de <b>grands comptes</b>&nbsp;: dès
+        <b>fin&nbsp;2018</b>, la plateforme déclarait <b>5&nbsp;000 entreprises</b> clientes, dont environ <b>80&nbsp;%</b>
+        des groupes du <b>CAC&nbsp;40</b>. Les besoins adressés concernent des expertises <i>tech</i>, <i>data</i>,
+        produit, design et marketing digital, avec un accent mis sur l’autonomie et la séniorité des intervenants.
+      </p>
+
+
+  </section>
+
+  <section class="bloc bloc3">
+        </div>
+    <div class="bloc-image"><img src="evolution_salarie_lacreme.png" height="200" width="200" alt="Évolution du nombre de salariés (2016–2025)">
+    </div>
+    <div class="bloc-text">
+
+      <p>
+        Côté <b>ressources humaines internes</b>, l’entreprise a suivi une croissance par paliers&nbsp;: autour de
+        <b>20</b> salariés en <b>2020</b> puis environ <b>40</b> collaborateurs à partir de <b>2023</b>, niveau qui
+        se maintient en <b>2025</b>, ce qui traduit une croissance importante de leur économie. La structure combine des équipes produit/tech (dont une dizaine de développeurs),
+        des fonctions opérationnelles orientées delivery et accompagnement clients, et un pôle marketing/communauté.
+      </p>
+
+  </section>
+
+    <section class="bloc bloc4">
+    <div class="bloc-text">
+      <p>
+        L’entreprise évolue sur un marché français très concurrentiel.<br> Parmis eux, <b>Freelance.com</b> opère comme un acteur
+        intégré à grande échelle, <b>LeHibou</b> se spécialise dans les missions IT et consultants, tandis que
+        <b>Comet</b> met l’accent sur la sélectivité des profils <i>tech/data</i>. <b>Malt</b> demeure quant à lui
+        un généraliste de référence, puissant par le volume et l’étendue des métiers. La Crème de la Crème se positionne
+        dans un segment <b>premium et sélectif</b>, misant sur la durée des missions, la qualité des profils et
+        l’accès aux grands comptes.
+      </p>
+    </div>
+    <div class="bloc-image"><img src="graphique_concurrence_francais.png"  alt="Comparatif du chiffre d'affaires 2024 — plateformes françaises">
+    </div>
+  </section>
+
+  <section class="bloc bloc5">
+    <div class="bloc-test">
+      <p>
+        La Crème de la Crème articule sa proposition de valeur autour d’un <b>processus de sélection
+        exigeant</b>, d’un <b>accompagnement opérationnel</b> pensé pour les grands comptes et d’un <b>modèle de
+        mission plus long</b> que la moyenne du marché. Ces choix soutiennent un positionnement différenciant face
+        aux plateformes généralistes, au prix d’un développement plus mesuré en volume mais orienté vers la <b>qualité
+        et la récurrence</b> des collaborations.
+      </p>
+    </div>
+  </section>
+
 </body>
 
 <footer>
