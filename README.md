@@ -36,3 +36,33 @@ nombre d'employé leur histoire leur programe écologique.
 
 # lien site web
 - https://lacremerie90.github.io/Presantation_CDLC_SAE_A2_Groupe4.github.io
+
+
+## Répartition du travail
+
+### Planification - Diagramme de GANTT
+
+- Chive Mathis
+
+### Recherches d'informations
+
+- Jules Carmille
+- Gabriel Chevreaux
+
+
+### Développement site
+
+- Bouchard Léo
+  - Page d’accueil
+  - "Template" de page (Navbar/Footer)
+- Chive Mathis
+  - Page histoire/présentation
+- Carmille Jules
+  - Page écologie
+- Chevreaux Gabriel
+  - Page économie
+
+
+## Contributeurs
+
+![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
