@@ -61,8 +61,4 @@ nombre d'employé leur histoire leur programe écologique.
   - Page écologie
 - Chevreaux Gabriel
   - Page économie
-
-
-## Contributeurs
-
-![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
+    
